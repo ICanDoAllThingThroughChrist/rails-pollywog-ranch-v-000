@@ -17,7 +17,7 @@ class TadpolesController < ApplicationController
 
 
   def index
-    @tadpoles = tadpole.all
+    @tadpoles = Tadpole.all
   end
 
   def show
